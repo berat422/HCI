@@ -27,6 +27,7 @@
             </div>
           
           <form id="login" action="LoginVerify.php"class="input-group" method="post">
+                <h3>name<h3>
               <input type="text" class=" int input-field" name="name" placeholder="Name" required>
               
               <input type="password" class="int input-field" name="password"placeholder=" Password" required>

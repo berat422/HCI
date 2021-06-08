@@ -4,7 +4,7 @@ session_start();
  <header>
  <div class="container">
  <div id="branding">
-     <img src="Photos/logo.png" alt="">
+    
   
  </div>
  <nav>

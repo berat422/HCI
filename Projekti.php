@@ -10,43 +10,47 @@
     include 'header.php';
 
     ?>
+    
     <main>
+
+        <div class="fotoo">
+            <img src="Photos/Gjelbert.png" class="opp"></img>
+        </div>
+  
         <section class="hero"> 
             <div class="bcontainer">
+            <div class="logo1">
+            
+            </div>
                 <div class="mesazhi-kryesor">
-                   <h3>Pull up a chair. Take a taste. Come join us. Life is so endlessly delicious</h3>
-                   <h1>Welcome</h1>
+
+                  
+                   <h1>WELCOME TO TALKSPACE</h1></br></br>
                    <p>
-                    The official website of PASTA FASTA, where you will be notified about
-                    our products, services, and weekly offers.</br>
-                    If you want to make a reservation click on the <b> "BOOK NOW" button </b>, and keep in mind that: <br> <br> <b> "LIFE IS A COMBINATION
-                    OF MAGIC AND PASTA "</b>
+                   The world's largest counseling service.
+Professional, licensed, and vetted counselors that you can trust
                    </p>
                 </div>
             </div>
-           <div class="cta">
-             
-           </div>
+           
           
    </section>
    <section class="experience-outdores">
        <div class="bcontainer">
            <div class="title-heading">
               
-               <h1>Big Pasta Trio</h1>
-               <p>ENJOY "THE MOST WANTED" OF PASTA</p>
-               <hr class="solid">
+              
            </div>
            <div class="activities-grid">    
                 <div class="activities-grid-item arrabiata">
-                   <p>ARRABIATA</p>
+                   <p>We genuinely love working with non-profits and their communities.</p>
                    
                  </div>
                  <div class="activities-grid-item chicken">
-                    <p>CHICKEN CURRY</p>
+                    <p>We whill always be by your side just call us</p>
                 </div>
                 <div class="activities-grid-item napoleoni">
-                    <p>NAPOLEONI</p>
+                    <p>No need to panic life can be difficult sometimes</p>
                 </div>
 
            </div>
@@ -55,21 +59,34 @@
 
 
    <section class="testimonials">
-    <div class="bcontainer"> 
-           <div class="testimonial">
-             <div class="testimonial-text-box">
-                <i class='fas fa-quote-right fa1'>"</i>
-              <p><b>A LOT OF RESTAURANTS SERVE GOOD FOOD,BUT THEY DON'T HAVE VERY GOOD SERVICE.
-                 <BR>LET YOUR SERVICE REMINDE THEM THIER HOME</b>
-              </p>
-              
-              </div>
-              <div class="testimonial-photo">
-                 <img src="Photos/Gordon.jpg" alt=""/>
-                 <h1>Gordon Ramsey</h1>
-              </div>
-          </div>
+     <h2>Change the way you feel!</h2></br>
+             <h2>Overcome negative thoughts, stress, and life's challenges!</h2></br>
+              <h2>Talkspace is the single destination for effective, evidence-based solutions
+                for better mental health</h2>
+</section>
+<section class="contact">
+    <div class="contactus">
+            <h1>CONTACT US</h1>
+            </br>
+            <h3>FEEL FREE TO GET IN TOUCH WITH US IM ALLWAYS OPEN TO DISCUSSING</h3>
+              </br>
+              <h3>MAIL US AT:BERAT.BUZHALA@GMAIL.COM</h3>
+              </br>
+              <h3>CALL US :04464323</h3>
+
     </div>
+    <div class="inputFilelds">
+              <input type="text" class=" int input-field" name="name" placeholder="ENTER YOUR NAME" required>
+              </br>
+                </br>
+              <input type="text" class=" int input-field" id="dyshi" name="name" placeholder="ENTER A VALID EMAIL" required>
+                </br>
+                  </br>
+              <input type="text" class=" int input-field" id="treshi" name="name" placeholder="ENTER YOUR MESSAGE" required>
+             <button class="btn">SUBMIT</buttom>
+    </div>
+
+
 </section>
 
     </main>
