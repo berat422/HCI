@@ -1,6 +1,6 @@
 <?php
 session_start();
 session_destroy();
-header('Location:Projekti.php');
+header('Location:Register.php');
 
 ?>

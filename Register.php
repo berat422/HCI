@@ -6,11 +6,12 @@
     </head>
     <body>
     <?php
-    include 'header.php';
+  
 
     ?>
       <main>
           <div class="hero">
+             <div class="teksti"></div>
               <div class="form-box">
                   <div class="button-box">
                       <div id="btn"></div>
@@ -46,7 +47,7 @@
 </div>
 </main>
     <?php
-   include 'footer.php';
+  
    ?>
      <script src="index.js"></script>
   
