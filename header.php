@@ -4,7 +4,9 @@ session_start();
  <header>
  <div class="container">
  <div id="branding">
-    
+ <div class="image">
+                <img id="logoo" class="headerPhoto" src="Photos/logo.png" alt="Logo" />
+            </div>
   
  </div>
  <nav>
@@ -20,6 +22,7 @@ session_start();
       ?>
 
 
+      
   
      <li class="current"><a href="Projekti.php ">Home</a></li>
      <li class="current"><a href="services.php">Services</a></li>
