@@ -26,6 +26,7 @@ session_start();
   
      <li class="current"><a href="Projekti.php ">Home</a></li>
      <li class="current"><a href="services.php">Services</a></li>
+     <li class="current"><a href="relax.php">Relax</a></li>
      <li class="current"><a href="aboutt.php">About</a></li>  
      <?php
      if(isset($_SESSION['role'])&& $_SESSION['role']==0){
