@@ -11,60 +11,44 @@
     </head>
     <body>
     <?php
-     include 'header.php';
+    include 'header.php';
     ?>
 
     <main>
-        <section class="hero"> 
-            <div class="bcontainer">
-                <div class="mesazhi-kryesor">
-                  <h1>Your Menu Sets the Mood</h1>
-                  <p>Remeber that your menu is part of</br>
-                  your cousine performance that offers</br>
-                  a colsumer not only quality food,but
-                  also quality time
-              </p>
-            
-              <p>
-                Food is a very important in the life of each of us; many of us resort to dining in
-                 restaurants because of the delay outside the home 
-                or the need to break the routine of the daily life and taste new foods and flavors.
-              </p>
-                </div>
-            </div>
-        </section>
-          
-   <section class="heroi">
-    <div id="slider">
-         <figure>
-          
-            <img src="Photos/222.jpg">
-            <img src="Photos/111.jpg">
-            <img src="Photos/333.jpg">
-            <img src="Photos/444.jpg">
-            <img src="Photos/555.jpg">
-         </figure>
-  </div>
-
-</section>
-<section class="team">
-    <div class="teamDiv">
-        <div class="box1">
-         
-          <img src="Photos/team.jpg" class="teamFoto">
-
+      <div class="panorama">
+        <img src="Photos/panorama.jpg" class="panorama"/>
+      </div>
+      
+        <div class="flex-container" style="margin-top: 25px; box-shadow: 15px 15px #888888; margin-bottom: 15px; border-bottom: 1px solid black;">
+          <div class="two-chat" style="width: 400px;">
+            <img src="Photos/male-psychologist.jpg" id="mid-pic1" style="max-width: 300px;"/>
+            <h3>CHAT WITH PROFFESSIONAL THERAPIST</h3>
+            <p>OUR SELECTED THERAPISTS ARE HERE FOR YOUR NEEDS</p>
+          </div>
+          <div class="pac" style="width: 400px;">
+            <img src="Photos/pacman.jpg" id="mid-pic2" style="max-width: 300px;"/>
+            <h3>PLAY GAMES/MUSIC</h3>
+            <p>NOT ONLY THAT GAMES AND MUSIC ARE FUN TO DO IN YOUR FREE TIME, 
+            BUT STUDIES SHOW THAT THEY HELP A LOT WITH STRESS AND OTHER PSYCHOLOGICAL NEEDS</p>
+          </div>
+          <div class="cartoon" style="width: 400px;">
+            <img src="Photos/two-chatting.jpg" id="mid-pic3" style="max-width: 300px;"/>
+            <h3>CHAT WITH OTHER PEOPLE</h3>
+            <p>CHAT WITH OTHER PEOPLE SHARE YOUR THOUGHTS AND YOUR PROBLEMS, LET YOUR EXPERIENCE HELP OTHERS</p>
+          </div>
         </div>
-        <div class="box2">
-         
-          <h2>Meet our Pasta Team</h2>
-          <p><b>"</b>I'm working harder than ever now, and I'm putting on my pants the same as I always have.</br> I just get up every day and try to do a little better than the day before, and that is to run a great restaurant with great food, great wine, and great service. That’s my philosophy.<b>"</b></p>
+        <div class="end" style="background-color:  #56907f; border-radius: 10px; color: white;padding-left: 35px;padding-right: 35px;padding-top: 10px;padding-bottom: 10px; margin-top:30px; margin-bottom:  25px;">
+            <h2>WE ARE ALL WORKS-IN-PROGRESS, AND IT TAKES EFFORT AND DEDICATION TO GROW AND EVOLVE IN A POSITIVE DIRECTION. 
+            WE ARE ALL WORKS-IN-PROGRESS, AND IT TAKES EFFORT AND DEDICATION TO GROW AND EVOLVE IN A POSITIVE DIRECTION.
+            LEARN STRATEGIES TO HELO YOU BE YOUR BEST YOU</h2>
         </div>
-    </div>
-</section>
+      
     </main>
     <?php
-   include 'footer.php';
-    ?>
+ include 'footer.php';
+   ?>
+
+
   
  </body>
 </html>           

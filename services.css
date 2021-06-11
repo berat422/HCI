@@ -6,13 +6,14 @@ html{
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
 
 
-header{
-/*  background: linear-gradient(90deg, rgba(11,11,11,0.6) 100%, rgba(0,212,255,0.6) 100%),url("HeroPhoto2.jpg");*/
-  color:#ffffff;
-  padding-top:0px;
-  min-height:70px;
-  border-bottom:#ffc760 3px solid;
-  background-color: white;
+header {
+    /*  background: linear-gradient(90deg, rgba(11,11,11,0.6) 100%, rgba(0,212,255,0.6) 100%),url("HeroPhoto2.jpg");*/
+    color: #ffffff;
+    padding-top: 0px;
+    min-height: 70px;
+    height: 100;
+    border-bottom: #01ff15 3px solid;
+    background-color: white;
 }
 header img{
     float:left;
@@ -20,12 +21,12 @@ header img{
     height:100px;
     width: 100px;
 }
-header a{
-  color:#ffffff;
-  text-decoration:none;
-  text-transform: uppercase;
-  font-size:16px;
-  font-family: arial;
+header a {
+    color: #3dd00d;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: arial;
 }
 header ,li ,a{
     font-weight: 500;
@@ -50,33 +51,35 @@ header nav{
     
   }
   
-header .highlight, header .current a{
-  color:#e48e0d;
-  font-weight:bold;
-  font-weight: 500;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-  transition: all 0.3s ease 0s;
+  header .highlight, header .current a {
+    color: #01d254;
+    font-weight: bold;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    transition: all 0.3s ease 0s;
 }
   
 header a:hover{
     color:#cccccc;
     font-weight:bold;
-    transition: width .3s ;
+    transition: width .10s ;
     border-bottom: #ea9a21 0.125em solid;
   }
 
+
 .container{
-    width:90%;
+    width:100%;
     margin:auto;
     overflow:hidden;
+    background-color: white;
+
 }
  
 
-    header{
-        height:8rem;
-
-    }
+    /* header{
+        height:8rem
+    } */
     
     .nav-brand{
         width:3.5rem;
@@ -128,9 +131,13 @@ header a:hover{
     
     .hero{
         height:60vh;
+
     }
     .main-message{
         transform:translateY(50%);
+}
+.panorama{
+    max-width: 100%;
 }
 .title-heading h1{
     font-size:2.5rem;
@@ -138,7 +145,7 @@ header a:hover{
 
 
 body{
-    background-color: black;
+    background-color: white;
     margin: 0px;
     min-width: 1000px;
 }
@@ -161,66 +168,28 @@ main{
 section{
     padding: 3.8rem 0;
 }
-.bcontainer{
-    width: 100%;
-    max-width: 90rem;
-    min-width: 800px;
-    margin: 0 auto;
-
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
 }
-.hero{
-    width: 100%;
-    height: 550px;
-    min-width: 800px;
-    min-height: 300px;
-    background: linear-gradient(135deg ,rgba(255, 147, 23, 0.637)0%,rgba(138, 111, 85, 0.438)100%),url("Photos/back.jpg")
-    center no-repeat;
-    background-size: cover;
-    position: relative;
-    height: 600;    
+.mid-pic2{
+    margin-left: 25px;
 }
-
-.hero::before{
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 400;
-    bottom: 0;
-    width: 100%;
-    height: 19.3rem;
-   /* background: url("divider.png") center no-repeat;*/
-    min-width: 800px;
-    background-size:cover;
-
+main{
+    max-width: 100%;
+}
+.two-chat{
+    align-items: center;
+    max-width: 300px;
+    max-height: 250px;
+}
+.pac{
+    align-items: center;
+}
+.cartoon{
+    align-items: center;
 }
 
-.mesazhi-kryesor{
-    width: 100%;
-    min-width: 800px;
-    max-width: 50rem;
-    color:#000000fa;
-    text-transform: translateY(20%);
-    margin-left: 70px;
-    
-}
-.mesazhi-kryesor h3{
-    font-size: 1.3rem;
-    font-family: 'Poppins', sans-serif;
-}
-.mesazhi-kryesor h1{
-    font-family: 'Poppins', sans-serif;
-    font-size: 2.7rem;
-    margin:2rem 0;
-    margin-left:1.6rem ;
-  animation:zoom-out 5s  alternate infinite ;
-}
-
-.mesazhi-kryesor p{
-    font-size: 24px;
-    padding-right: 60px;
-    font-family: 'Poppins', sans-serif;
-    
-}
 .bttn{
     
     background-color:rgb(255, 128, 0 );
@@ -299,7 +268,7 @@ section{
 }
 /*-----------------------------pjesa e 3 e body-------------------------------------------------------------*/
 .testimonials::before{
-    background: url("Photos/divider1.png")bottom no-repeat;
+    /* background: url("Photos/divider1.png")bottom no-repeat; */
     content: "";
     position: absolute;
     left: 0;
@@ -315,7 +284,7 @@ section{
     height: 650px;
     min-width: 800px;
     min-height: 300px;
-    background: linear-gradient(135deg ,rgba(243, 144, 31, 0.877)0%,rgba(114, 114, 112, 0.7)100%),url("Photos/HeroPhoto2.jpg")
+    background: linear-gradient(135deg ,rgba(243, 144, 31, 0.877)0%,rgba(114, 114, 112, 0.7)100%)
     center no-repeat;
     background-size: cover;
     position: relative;
@@ -466,8 +435,83 @@ section{
     width: 100%;
 }
 /*-----------------------------pjesa e footer-------------------------------------------------------------*/
-
 .footer{
+	background-color:white;
+	padding: 20px 0px 20px 0px;
+}
+
+.footer h1{
+	color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    line-height: 18px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.footer p{
+	color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+   	font-weight: 200;
+}
+
+.footer ul{
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+.footer li{
+	color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    line-height: 24px;
+   	font-weight: 200;
+   	display: flex;  
+       height: 50;
+}
+
+.footer .ndryshe i{
+	color: lawngreen;
+	font-size: 14px;
+	line-height: 14px;
+}
+
+.footer i{
+	color: black;
+	padding-right: 10px;
+	font-size: 18px;
+	line-height: 18px;
+}
+
+hr{
+	display: block;
+	height: 1px;
+    border: 0; 
+    border-top: 1px solid green;
+    margin: 1em 0; 
+}
+
+.footer .special{
+	padding-bottom: 20px; 
+}
+
+.footer .special p{
+	color: black;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.footer .special .p1{
+	float:left;
+}
+
+.footer .special .p2{
+	float: right; 
+}
+/* .footer{
 	background-color: #000000;
 	padding: 20px 0px 20px 0px;
 }
@@ -552,7 +596,7 @@ hr{
     height: 150px;
     width: 150;
     padding-right: 20px;
-}
+} */
 /*pjesa e Massimo */
 .mesazhi2{
     margin-top: 100px;

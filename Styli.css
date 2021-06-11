@@ -79,7 +79,7 @@ header nav{
 }
 
 
-}
+
 
     header .highlight, header .current a {
         color: #01d254;
@@ -203,7 +203,7 @@ section{
     min-width: 800px;
     min-height: 300px;
     background-color:white;
-    center no-repeat;
+    center: no-repeat;
     background-size: cover;
     position: relative;
 }
@@ -331,7 +331,7 @@ section{
     display: flex;
     z-index: 1;
 }
-}
+
 .activities-grid-item ::before{
   
     content: "";
@@ -407,7 +407,7 @@ hr.solid {
     min-width: 800px;
     min-height: 300px;
     background-color: white;
-    center no-repeat:;
+    center: no-repeat;
     background-size: cover;
     position: relative;
     margin-top: 20px;

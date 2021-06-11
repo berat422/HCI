@@ -91,7 +91,7 @@ Professional, licensed, and vetted counselors that you can trust
 
     </main>
    <?php
- include 'footer.php';
+ include 'footer.php';  
    ?>
    
 
