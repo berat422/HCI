@@ -15,14 +15,14 @@
     ?>
 
     <main>
-      <div class="panorama">
+      <div class="panorama"></div>
         <img src="Photos/panorama.jpg" class="panorama"/>
       </div>
       
         <div class="flex-container" style="margin-top: 25px; box-shadow: 15px 15px #888888; margin-bottom: 15px; border-bottom: 1px solid black;">
           <div class="two-chat" style="width: 400px;">
             <img src="Photos/male-psychologist.jpg" id="mid-pic1" style="max-width: 300px;"/>
-            <h3>CHAT WITH PROFFESSIONAL THERAPIST</h3>
+            <h3>CHAT WITH PROFESSIONAL THERAPISTS</h3>
             <p>OUR SELECTED THERAPISTS ARE HERE FOR YOUR NEEDS</p>
           </div>
           <div class="pac" style="width: 400px;">

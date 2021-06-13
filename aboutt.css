@@ -6,6 +6,7 @@ html{
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
 
 
+ 
 header{
 /*  background: linear-gradient(90deg, rgba(11,11,11,0.6) 100%, rgba(0,212,255,0.6) 100%),url("HeroPhoto2.jpg");*/
   color:#ffffff;
@@ -50,13 +51,13 @@ header nav{
     
   }
   
-header .highlight, header .current a{
-  color:#e48e0d;
-  font-weight:bold;
-  font-weight: 500;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-  transition: all 0.3s ease 0s;
+  header .highlight, header .current a {
+    color: #01d254;
+    font-weight: bold;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    transition: all 0.3s ease 0s;
 }
   
 header a:hover{
@@ -69,7 +70,8 @@ header a:hover{
 .container{
     width:90%;
     margin:auto;
-    overflow:hidden;
+    background:rgb(18, 136, 34);
+
 }
  
 @media screen and (main-width:700px){
@@ -127,7 +129,7 @@ header a:hover{
     }
     
     .hero{
-        height:60vh;
+        height: 20px;;
     }
     .main-message{
         transform:translateY(50%);
@@ -138,7 +140,7 @@ header a:hover{
 }
 
 body{
-    background-color: black;
+    background-color: white;
     margin: 0px;
     min-width: 1000px;
 }
@@ -164,7 +166,7 @@ section{
 .bcontainer{
     width: 100%;
     max-width: 90rem;
-    min-width: 800px;
+    min-width: 300px;
     margin: 0 auto;
 
 }
@@ -173,11 +175,10 @@ section{
     height: 550px;
     min-width: 800px;
     min-height: 300px;
-    background: linear-gradient(135deg ,rgba(233, 132, 38, 0.729)0%,rgba(255, 255, 255, 0.575)100%),url("Photos/ddd.jpg")
-    center no-repeat;
+    background: rgb(255, 255, 255);
     background-size: cover;
     position: relative;
-    height: 600;    
+    height: 30;    
 }
 
 .hero::before{
@@ -200,7 +201,8 @@ section{
     max-width: 50rem;
     color:#000000fa;
     text-transform: translateY(20%);
-    margin-left: 70px;
+    margin-left: 280px;
+    text-align:center;
     
 }
 .mesazhi-kryesor h3{
@@ -275,6 +277,7 @@ section{
     font-weight: 500;
     padding-bottom: 15px;
     text-align: left;
+    
 }
 
 .services .colum p{
@@ -324,7 +327,7 @@ section{
 
 .testimonial{
     width: 100%;
-    color: black;
+    color: white;
     position: absolute;
     min-width: 800px;
     min-height: 300px;
@@ -367,7 +370,7 @@ section{
     font-size: 1.9rem;
 }
 /*-----------------------------pjesa e footer-------------------------------------------------------------*/
-
+/*
 .footer{
 	background-color: #000000;
 	padding: 20px 0px 20px 0px;
@@ -418,7 +421,7 @@ section{
 	font-size: 18px;
 	line-height: 18px;
 }
-
+*/
 hr{
 	display: block;
 	height: 1px;
@@ -426,7 +429,7 @@ hr{
     border-top: 1px solid #ccc;
     margin: 1em 0; 
 }
-
+/*
 .footer .special{
 	padding-bottom: 20px; 
 }
@@ -443,7 +446,7 @@ hr{
 
 .footer .special .p2{
 	float: right; 
-}
+}*/
 .row{
     display: flex;
     font-family: 'Montserrat', sans-serif;
@@ -465,10 +468,10 @@ hr{
 }
 .p1 p{
         font-size: 15;
-        color: papayawhip;
+        color: black;
 }
 .p1 h1{
-    color: firebrick;
+    color: black;
 }
 .p2{
     margin-left: 170px;
@@ -476,15 +479,15 @@ hr{
 .p2 img {
     width: 300;
     
-    border-left: 12px solid firebrick;
-    border-bottom: 17px solid firebrick;
+    
 }
 .hero2 {
     display: flex;
-    flex-direction: row;
-    height: 300;
-    width: 900px;
-    margin-left: 200;
+    flex-direction: column;
+    height: 1800;
+    width: 1350px;
+    margin-left: 100;
+    margin-right:100;
     
 }
 
@@ -524,7 +527,7 @@ hr{
     p {
         font-size: 2rem;
     }
-    .footer h1{
+   /* .footer h1{
         font-size: 25px;
     }
     .footer li{
@@ -540,7 +543,7 @@ hr{
     }
     .footer .special p {
         font-size: 15px;
-    }
+    }*/
     header img {
         height: 130px;
         width: 130px;
@@ -587,10 +590,10 @@ hr{
     .services .colum p {
         line-height: 40px;
     }
-    .footer .special .p2 {
+    /*.footer .special .p2 {
         padding-top: 15;
         margin: 0;
-    }
+    }*/
     .services .row{
         flex-direction: column;
     }
@@ -656,6 +659,7 @@ p{
     height: 200px;
     width: 200px;
 }
+/*
 .footer h1{
     font-size: 25px;
 }
@@ -667,12 +671,26 @@ p{
 }
 .footer .special p{
     font-size: 18px;
-}
+}*/
 main{
     width:860px;
 }
-header{
+header {
     height: 150px;
-    width: 864px;
+    width: 880px;
+    border-bottom: #ffc760 5px solid;
 }
+
+
+
+hr{
+	display: block;
+	height: 1px;
+    border: 0; 
+    border-top: 1px solid green;
+    margin: 1em 0; 
+}
+
+
+
 }
