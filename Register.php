@@ -27,7 +27,7 @@
             </div>
           
           <form id="login" action="LoginVerify.php"class="input-group" method="post">
-                <h3>name<h3>
+             
               <input type="text" class=" int input-field" name="name" placeholder="Name" required>
               
               <input type="password" class="int input-field" name="password"placeholder=" Password" required>
@@ -39,7 +39,7 @@
             <input type="email"name="email" class=" register-input input-field" placeholder="Eamil" required>
             
             <input type="password" name="register-password"class=" register-input input-field" placeholder=" Password" required>
-            <input type="checkbox" class="chech-box"><span>i agree to the terms and conditions</span>
+            <input type="checkbox" class="chech-box po"><span>i agree to the terms and conditions</span>
             <button type="submit" name="register-btn"id="register-button" class="submit-btn">register</button>
         </form>
          

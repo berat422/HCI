@@ -1,6 +1,6 @@
     <html>
     <head>
-        <link rel="stylesheet" href="Styli.css" type="text/css"/>
+        <link rel="stylesheet" href="Styli.css?ts=<?=time()?>" type="text/css"/>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width">
@@ -76,14 +76,16 @@ Professional, licensed, and vetted counselors that you can trust
 
     </div>
     <div class="inputFilelds">
-              <input type="text" class=" int input-field" name="name" placeholder="ENTER YOUR NAME" required>
+      <form action="contactVerify.php" method="POST" >
+              <input type="text" class=" int input-field" name="contact-name" placeholder="ENTER YOUR NAME" required>
               </br>
                 </br>
-              <input type="text" class=" int input-field" id="dyshi" name="name" placeholder="ENTER A VALID EMAIL" required>
+              <input type="text" class=" int input-field" id="dyshi" name="contact-email" placeholder="ENTER A VALID EMAIL" required>
                 </br>
                   </br>
-              <input type="text" class=" int input-field" id="treshi" name="name" placeholder="ENTER YOUR MESSAGE" required>
-             <button class="btn">SUBMIT</buttom>
+              <input type="text" class=" int input-field" id="treshi" name="contact-message" placeholder="ENTER YOUR MESSAGE" required>
+              <button type="submit" name="talk-btn"class="btn">Contact</button>
+             </form>
     </div>
 
 

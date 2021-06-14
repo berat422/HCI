@@ -15,7 +15,7 @@
                 <h1>Contact Us</h1>
                
                 <div class="form">
-                <form action="contactVerify.php" method="post">
+                <form>
                     <input type="text" class="contact-input"id="name" name="contact-name" placeholder="Name" required></br>
                     <input type="text" class="contact-input" id="email" name="contact-email" placeholder="E-Mail" required></br></br>
                     <input type="text" class="contact-input"id="mesage" name="contact-message" placeholder="Message"  required></br>

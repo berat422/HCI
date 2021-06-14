@@ -31,7 +31,7 @@ session_start();
      <?php
      if(isset($_SESSION['role'])&& $_SESSION['role']==0){
        ?>
-      <li class="current"><a href="ConatctUs.php">Contact Us</a></li>
+    
       <?php
      }
      ?>  
